@@ -9,42 +9,81 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
         .main-heading {
-            font-size: 24px;
+            font-size: 28px;
             font-weight: bold;
             margin-top: 20px;
+            color: #007BFF;
+            text-align: center;
         }
         .sub-heading {
-            font-size: 20px;
+            font-size: 22px;
             font-weight: bold;
             margin-top: 20px;
+            color: #17A2B8;
         }
         .content {
             margin-top: 10px;
-            line-height: 1.6;
+            line-height: 1.8;
         }
         .cta {
-            background-color: #f4f4f4;
-            padding: 10px;
+            background-color: #e9ecef;
+            padding: 15px;
             border-radius: 5px;
             margin-top: 20px;
         }
         .cta-heading {
-            font-size: 18px;
+            font-size: 20px;
             font-weight: bold;
+            margin-top: 10px;
+            color: #28a745;
         }
         .cta p {
             margin: 5px 0;
         }
         .link {
-            color: blue;
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .link:hover {
             text-decoration: underline;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 8px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            .main-heading {
+                font-size: 24px;
+            }
+            .sub-heading {
+                font-size: 18px;
+            }
+            .cta-heading {
+                font-size: 18px;
+            }
         }
     </style>
 </head>
 <body>
-    <div>
+    <div class="container">
         <div class="main-heading">Introduction</div>
         <div class="content">
             One of the most prestigious events of IEEE Kerala Section and GTech MuLearn that is determined to serve the goal of creating opportunities for engineering students and graduates. Launchpad Kerala 2024 is a premier job fair that brings together talented individuals and innovative companies in the technical and engineering fields. This collaboration between IEEE Kerala Section and GTech MuLearn aims to propel advancement and innovation within Kerala's employment landscape by facilitating the seamless exchange of ideas and expertise.
